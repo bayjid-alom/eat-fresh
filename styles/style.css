@@ -15,7 +15,6 @@
     gap: 100px;
     margin-top: 110px;
     margin-bottom: 100px;
-    border: 1px solid black;
 }
 
 #banner-container h2 {
@@ -43,7 +42,7 @@
 
 #banner-container button {
     background: linear-gradient(120deg, #FBA24F, #FF1E1E);
-    padding: 22px 43px;
+    padding: 23px 43px;
     border-radius: 50px;
     border: none;
     font-size: 18px;
@@ -60,13 +59,11 @@
 
 #banner-container .banner-image {
     max-width: 650px;
-    border: 1px solid black;
     position: relative;
 }
 
 #banner-container .img-1 {
     width: 100%;
-    /* position: relative; */
     height: auto;
     display: block;
     display: flex;
