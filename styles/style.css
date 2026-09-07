@@ -57,10 +57,12 @@
     transform: translateY(-6px);
 }
 
+
 #banner-container .banner-image {
     max-width: 650px;
     position: relative;
 }
+
 
 #banner-container .img-1 {
     width: 100%;
@@ -69,6 +71,7 @@
     display: flex;
     justify-content: right;
 }
+
 
 #banner-container .img-2 {
     width: 100%;
