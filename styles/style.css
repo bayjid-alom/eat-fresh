@@ -40,7 +40,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-#banner-container button {
+.primary-btn {
     background: linear-gradient(120deg, #FBA24F, #FF1E1E);
     padding: 23px 43px;
     border-radius: 50px;
@@ -53,7 +53,7 @@
 }
 
 
-#banner-container button:hover {
+.primary-btn:hover {
     transform: translateY(-6px);
 }
 
@@ -91,16 +91,12 @@
 
 
 main .about-section {
-    margin: 60px 0;
-    padding: 55px 0 0 0;
-    background-image: url("./images/shapes/bg.jpg");
+    padding: 60px 0 0 0;
+    background-image: url("../images/shapes/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    /* applied */
-    background-color: #d69e9e8f;
-
+    margin-bottom: 120px;
 }
 
 
@@ -111,8 +107,6 @@ main .about-section {
     justify-content: space-between;
     gap: 150px;
     align-items: center;
-    border: 2px solid black;
-
 }
 
 .about-section .about-image {
@@ -133,6 +127,7 @@ main .about-section {
 }
 
 .about-content p{
+    font-family: "Manrope", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
