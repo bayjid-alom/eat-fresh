@@ -35,7 +35,7 @@
         -webkit-text-fill-color: transparent;
     }
 
-    #banner-container button {
+    .primary-btn {
         background: linear-gradient(120deg, #FBA24F, #FF1E1E);
         padding: 14px 23px;
         border-radius: 50px;
@@ -48,7 +48,7 @@
     }
 
 
-    #banner-container button:hover {
+    .primary-btn:hover {
         transform: translateY(-6px);
     }
 
@@ -76,4 +76,56 @@
         right: 0;
         margin-right: 20px;
     }
+
+
+
+    /* About me Section */
+
+
+    main .about-section {
+        padding: 30px 0 0 0;
+        background-image: url("../images/shapes/bg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 70px;
+    }
+
+
+    .about-section .about-container {
+        margin: 0 auto;
+        max-width: 94%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .about-section .about-image {
+        max-width: 338px;
+        vertical-align: middle;
+    }
+
+    .about-section .about-image img {
+        width: 100%;
+    }
+
+    .about-content h2 {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #707070;
+        margin-bottom: 32px;
+    }
+
+    .about-content p {
+        font-family: "Manrope", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+
+
 }
