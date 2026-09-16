@@ -222,10 +222,10 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
         margin-bottom: 80px;
         padding: 32px 35px;
-        
+
     }
-    
-    
+
+
     .count-card {
         margin: 0 auto;
         text-align: center;
@@ -250,6 +250,21 @@
         font-size: 16px;
         color: #18191F;
     }
+
+
+
+
+
+    /* Footer styles */
+    footer {
+        padding: 37px 0 50px;
+    }
+
+    footer .footer-content {
+        max-width: 90%;
+    }
+
+
 
 
 }
