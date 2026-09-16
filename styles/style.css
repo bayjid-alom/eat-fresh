@@ -212,3 +212,46 @@ main .recipe-section .recipe-container {
     line-height: 24px;
     color: #575757;
 }
+
+
+
+
+/* Count section */
+
+.count-container {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    margin-bottom: 120px;
+    padding: 64px 70px;
+
+}
+
+
+.count-card {
+    margin: 0 auto;
+    /* border: 1px solid gray; */
+    padding: 4px 25px;
+}
+
+.count-card h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #18191F;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.count-card h2:hover {
+    color: #ff1e1ee7;
+}
+
+.count-card p {
+    font-size: 16px;
+    color: #18191F;
+}
