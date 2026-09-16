@@ -254,3 +254,40 @@ main .recipe-section .recipe-container {
     font-size: 16px;
     color: #18191F;
 }
+
+
+
+
+
+/* Footer styles */
+footer {
+    padding: 37px 0 115px;
+    background-color: #0B0D17;
+
+}
+
+footer .footer-content {
+    max-width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer .footer-content h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #5B5B5B;
+    margin-bottom: 30px;
+}
+
+footer .footer-content h2 span {
+    background: linear-gradient(90deg, #FBA24F, #FF1E1E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+footer .footer-content p {
+    font-size: 16px;
+    color: white;
+}
