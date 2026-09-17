@@ -1,0 +1,153 @@
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    /* Banner Section */
+    #banner-container {
+        max-width: 90%;
+        gap: 30px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    #banner-container h2 {
+        font-size: 38px;
+        line-height: 1.3;
+        margin-bottom: 25px;
+    }
+
+    #banner-container p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .primary-btn {
+        padding: 16px 30px;
+        font-size: 16px;
+    }
+
+    #banner-container .banner-image {
+        max-width: 50%;
+    }
+
+    #banner-container .img-2 {
+        margin-right: 20px;
+    }
+
+
+    /* About Me Section */
+    main .about-section {
+        padding: 50px 0 0;
+        margin-bottom: 80px;
+    }
+
+    .about-section .about-container {
+        max-width: 85%;
+        gap: 50px;
+    }
+
+    .about-section .about-image {
+        max-width: 280px;
+        flex-shrink: 0;
+    }
+
+    .about-content h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 35px;
+    }
+
+
+    /* Recipe Section */
+    main .recipe-section {
+        max-width: 85%;
+        margin-bottom: 80px;
+    }
+
+    main .recipe-section .recipe-heading {
+        max-width: 85%;
+        margin-bottom: 25px;
+    }
+
+    main .recipe-section .recipe-heading h2 {
+        font-size: 32px;
+        margin-bottom: 22px;
+    }
+
+    main .recipe-section .recipe-heading p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+
+    main .recipe-section .recipe-container {
+        gap: 25px;
+    }
+
+    .recipe-container .recipe-card {
+        padding: 15px;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .recipe-container .recipe-card img {
+        border-radius: 14px;
+        margin-bottom: 15px;
+    }
+
+    .recipe-container .recipe-card h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .recipe-container .recipe-card p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    /* Count Section */
+    .count-container {
+        max-width: 85%;
+        gap: 15px;
+        padding: 40px 25px;
+        margin-bottom: 80px;
+    }
+
+    .count-card {
+        padding: 4px 10px;
+        text-align: center;
+    }
+
+    .count-card h2 {
+        font-size: 32px;
+    }
+
+    .count-card p {
+        font-size: 14px;
+    }
+
+
+    /* Footer */
+    footer {
+        padding: 35px 0 80px;
+    }
+
+    footer .footer-content {
+        max-width: 70%;
+    }
+
+    footer .footer-content h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    footer .footer-content p {
+        font-size: 14px;
+    }
+
+}
